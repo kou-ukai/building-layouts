@@ -60,7 +60,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(title: const Text('Flutter layout demo')),
-        body: Column(children: [
+        body: ListView(children: [
           // ホットリロードされなかった（おそらくpubspec.yamlはりろーどされていない）
           Image.asset(
             'images/lake.jpg',
